@@ -31,6 +31,6 @@ begin
 
 // 결과를 출력
 initial
-    $monitor ($time, "output q = %d', q);
+    $monitor ($time, "output q = %d", q);
 
 endmodule
