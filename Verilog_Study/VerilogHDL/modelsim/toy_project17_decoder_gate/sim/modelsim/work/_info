@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project_xor_gate/sim/modelsim
+vdecoder
+Z0 !s110 1658117472
+!i10b 1
+!s100 X]O2YP:EZ6Y91z[N4GTVA0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7DT9T4QU_PofMnQgdb_iV1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dc:/project/summer_prj/verilog_Study/verilogHDL/modelsim/toy_project_decoder_gate/sim/modelsim
+w1658117466
+8../../src/rtl/decoder.v
+F../../src/rtl/decoder.v
+!i122 10
+L0 1 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1658117472.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/decoder.v|
+Z6 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z7 tCvgOpt 0
+vtestbench
+R0
+!i10b 1
+!s100 hf4gUVEnQiS_D[ibb`aUo2
+R1
+ICIFadn>5SEE4ScNV^BL^[0
+R2
+R3
+w1658117467
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 10
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 ../../testbench/testbench.v|../../src/rtl/decoder.v|
+R6
+!i113 1
+R7

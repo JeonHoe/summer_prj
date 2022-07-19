@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project14_parity/sim/modelsim
+vparity
+Z1 !s110 1658126492
+!i10b 1
+!s100 9nQ:AHVXNc6OY=2PoQz_I3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@ch>SVZZjQC5SjSiIP:]62
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658126482
+8../../src/rtl/parity.v
+F../../src/rtl/parity.v
+!i122 1
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1658126492.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/parity.v|
+Z6 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z7 tCvgOpt 0
+vtestbench
+R1
+!i10b 1
+!s100 aF>EVCdjl4L=8RK5:R4kV1
+R2
+Ib^7PgZf<hMf8i^iNhU?B[3
+R3
+R0
+w1658126331
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 1
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 ../../testbench/testbench.v|../../src/rtl/parity.v|
+R6
+!i113 1
+R7

@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project_xor_gate/sim/modelsim
+vdemux
+Z0 !s110 1657606570
+!i10b 1
+!s100 km2k_P5e3F0KVPKmX^gJh3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICZ6RKC[jI3KBQFA3WC7?e0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project_demux_gate/sim/modelsim
+w1657604732
+8../../src/rtl/demux.v
+F../../src/rtl/demux.v
+!i122 7
+Z4 L0 1 54
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1657606570.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/demux.v|
+Z7 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z8 tCvgOpt 0
+vdemux_gate
+!s110 1657604470
+!i10b 1
+!s100 U8K5Zz=R9LV6K@5DCHgDa2
+R1
+I`@fj[IWjk<UYcMc>>Wlh]2
+R2
+dc:/project/summer_prj/verilog_Study/verilogHDL/modelsim/toy_project_demux_gate/sim/modelsim
+w1657604456
+8../../src/rtl/demux_gate.v
+F../../src/rtl/demux_gate.v
+!i122 4
+R4
+R5
+r1
+!s85 0
+31
+!s108 1657604470.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/demux_gate.v|
+R7
+!i113 1
+R8
+vtestbench
+R0
+!i10b 1
+!s100 Q2Xz:J][:60HK9bJzAUQO3
+R1
+IC=Xoi2Ah`ood1k`c]<=@:3
+R2
+R3
+w1657604782
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 7
+L0 1 25
+R5
+r1
+!s85 0
+31
+R6
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/demux.v|
+R7
+!i113 1
+R8

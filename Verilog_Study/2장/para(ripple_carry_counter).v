@@ -35,7 +35,7 @@ output q;
 input d, clk, reset;
 reg q;
 
-always @ (posedge reset or negedge clk)
+always @ (posedge reset or posedge clk)
 if (reset)
     q <= 1'b0;
 else

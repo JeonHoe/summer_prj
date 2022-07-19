@@ -34,19 +34,14 @@ module testbench();
 
     initial
     begin
-        in = 0;
-        #10 in = 1;
-        #10 in = 0;
-        #10 in = 1;
-    end
-
-    initial
-    begin
-        $display("%t ns: %b - %b", $time, in, out);
-        #10 $display("%t ns: %b - %b", $time, in, out);
-        #10 $display("%t ns: %b - %b", $time, in, out);
-        #10 $display("%t ns: %b - %b", $time, in, out);
-	      #10;
+        in = 0;$display("%t ns: %b - %b", $time, in, out);
+    
+        #10 in = 1; $display("%t ns: %b - %b", $time, in, out);
+        
+        #10 in = 0; $display("%t ns: %b - %b", $time, in, out);
+    
+        #10 in = 1;$display("%t ns: %b - %b", $time, in, out);
+    
         $stop;
     end
 

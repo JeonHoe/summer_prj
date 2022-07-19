@@ -27,10 +27,10 @@ begin
     #180 reset = 1'b1;
     #10 reset = 1'b0;
     #20 $finish; // 시뮬레이션을 끝냄.
-    end
+end
 
 // 결과를 출력
 initial
     $monitor ($time, "output q = %d", q);
-
+    
 endmodule
