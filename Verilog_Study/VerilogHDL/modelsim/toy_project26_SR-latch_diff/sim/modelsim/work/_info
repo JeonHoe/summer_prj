@@ -1,0 +1,56 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project27_SR-latch/sim/modelsim
+vSR_latch
+Z0 !s110 1658295423
+!i10b 1
+!s100 4Nn8zgfQ3Y9La`i[0gdKk3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3SXBKAJk010`R3=CkU4L22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project27_SR-latch-copy/sim/modelsim
+w1658295388
+8../../src/rtl/SRlatch.v
+F../../src/rtl/SRlatch.v
+!i122 88
+L0 1 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1658295423.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/SRlatch.v|
+Z6 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z7 tCvgOpt 0
+n@s@r_latch
+vtestbench
+R0
+!i10b 1
+!s100 L6[8mZ082=_Q25R7Ol>IW3
+R1
+ITPl`>a?hRZ1oSBJG8ekBD1
+R2
+R3
+w1658293258
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 88
+L0 2 26
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 ../../testbench/testbench.v|../../src/rtl/SRlatch.v|
+R6
+!i113 1
+R7

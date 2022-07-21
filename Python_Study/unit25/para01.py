@@ -60,11 +60,69 @@ x = {'a' : 10, 'b' : 20, 'c' : 30, 'd' : 40}
 print(x.pop('a')) # 삭제한 키에 값이 반환된다
 print(x) # 특정 키-값 삭제 이후의 딕셔너리가 출력된다
 # pop(키, 기본값)은 딕셔너리 안에 특정 키가 없을 경우 지정한 기본값을 출력
-print(x.pop('z', 0)) # 딕셔너리 x 안에 키 z는 없다
+print(x.pop('z', 0)) # 딕셔너리 x 안에 키 z는 없다, 옆에 0은 없을 경우 기본값 0을 출력한다는 의미
 
 # del로도 특정 키-값 쌍을 삭제할 수 있다
 x = {'a' : 10, 'b' : 20, 'c' : 30, 'd' : 40}
 del x['a']
 print(x)
-del x['z']
+#del x['z']
+#print(x)   # 하지만 딕셔너리 안에 없는 키의 값은 삭제할 수 없으며 실행 시 에러가 출력
+
+print() # 줄 바꿈을 위한 코드
+
+# 딕셔너리 모든 키-값 쌍 삭제하기
+# clear() 메서드는 딕셔너리 안에 모든 키-값 쌍을 삭제한다
+x = {'a' : 10, 'b' : 20, 'c' : 30, 'd' : 40}
+x.clear()
+print(x) # 빈 딕셔너리 {}가 출력된다
+
+print() # 줄 바꿈을 위한 코드
+
+# 딕셔너리에서 키의 값을 가져오기
+# get('키')는 딕셔너리 안에 '키'의 값을 반환하는 메서드이다
+x = {'a' : 10, 'b' : 20, 'c' : 30, 'd' : 40}
+print(x.get('a'))
+# get('키', '기본값')처럼 기본값을 지정하면 딕셔너리 안에 키가 없을 경우 기본값이 반환된다
+print(x.get('z', 1))
+
+print() # 줄 바꿈을 위한 코드
+
+# 딕셔너리에서 키-값 쌍 모두 가져오기
+x = {'a' : 10, 'b' : 20, 'c' : 30, 'd' : 40}
 print(x)
+# 키-값 쌍 모두 가져오기 - items
+print(x.items())
+# 키를 모두 가져오기 - keys
+print(x.keys())
+# 값을 모두 가져오기 - values
+print(x.values())
+
+print() # 줄 바꿈을 위한 코드
+
+# 리스트와 튜플로 딕셔너리 만들기
+# 키 리스트
+keys = ['a', 'b', 'c', 'd']
+# 키 리스트를 이용한 딕셔너리 생성
+x = dict.fromkeys(keys)
+print(x) # 값은 입력되지 않았으므로 당연히 값은 빈 딕셔너리가 생성된다
+# dict.fromkeys('키 리스트', '값')처럼 키 리스트와 값을 지정하면 해당 값이 키의 값으로 지정
+x = dict.fromkeys(keys, 100) 
+print(x)
+
+print() # 줄 바꿈을 위한 코드
+
+# 참고 : defaultdict 사용
+# 지금까지 사용한 딕셔너리는 없는 키에 접근할 경우 에러가 발생
+# 에러가 발생하지 않게 하기 위해 defaultdict 사용
+# defaultdict는 키가 없어도 에러가 발생하지 않고 기본값이 반환
+# defaultdict는 collections 모듈에 포함
+# 형태 : defaultdict('기본값생성함수')
+
+from collections import defaultdict
+y = defaultdict(int) # int로 기본값 생성
+print(y['z'])
+print(int()) # int()은 아무것도 입력받지 않았을 때 기본값으로 0 반환
+z = defaultdict(lambda : 'python')
+print(z['a'])
+print(z[0])

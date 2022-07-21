@@ -1,0 +1,79 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project30_SR-ff/sim/modelsim
+vSR_ff
+Z1 !s110 1658369465
+!i10b 1
+!s100 cDg>iWa_3HcH@<lD<TKOC3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjSlQcD4cjUHakR89aYS^@0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1658369082
+Z4 8../../src/rtl/SRff.v
+Z5 F../../src/rtl/SRff.v
+!i122 26
+Z6 L0 1 31
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1658369465.000000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/SRff.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z11 tCvgOpt 0
+n@s@r_ff
+vSR_latch
+!s110 1658366919
+!i10b 1
+!s100 DihfMBI:h1@fjGFR7BIih2
+R2
+INl]W_RmaUR=i23E:8ZhTa1
+R3
+R0
+w1658366638
+R4
+R5
+!i122 16
+R6
+R7
+r1
+!s85 0
+31
+!s108 1658366919.000000
+R9
+R10
+!i113 1
+R11
+n@s@r_latch
+vtestbench
+R1
+!i10b 1
+!s100 ES=4KWebd7`@WO6o?fm_C3
+R2
+IHPlj^]zkniEVGZ=@G4Yg?1
+R3
+R0
+w1658369450
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 26
+L0 2 32
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
