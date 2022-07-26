@@ -1,0 +1,145 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project31_D-ff/sim/modelsim
+vb_counter
+!s110 1658576077
+!i10b 1
+!s100 UGGW`GZT6`0S=IdmWYdS?1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV6iQE^RhmhPj9JRm<_=i61
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project32_counter-binary/sim/modelsim
+w1658575876
+8../../src/rtl/b_counter.v
+F../../src/rtl/b_counter.v
+!i122 21
+L0 1 22
+Z2 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1658576077.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/b_counter.v|
+Z3 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z4 tCvgOpt 0
+vD_ff
+Z5 !s110 1658808469
+!i10b 1
+!s100 YMKWjLcG63JDY0ofSeZRO0
+R0
+IT=dRnY]2kS2m084kOZ`FC2
+R1
+Z6 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
+Z7 w1658808463
+Z8 8../../src/rtl/gray_counter.v
+Z9 F../../src/rtl/gray_counter.v
+!i122 34
+L0 22 22
+R2
+r1
+!s85 0
+31
+Z10 !s108 1658808469.000000
+Z11 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
+R3
+!i113 1
+R4
+n@d_ff
+vgray_counter
+R5
+!i10b 1
+!s100 JbC2b9lQSXlbWnoBJ6RKm3
+R0
+I7B`i7T;C2`m<^gdk<z27h3
+R1
+R6
+R7
+R8
+R9
+!i122 34
+Z12 L0 1 20
+R2
+r1
+!s85 0
+31
+R10
+R11
+R3
+!i113 1
+R4
+vjohnson_counter
+!s110 1658808447
+!i10b 1
+!s100 S7>PBQCgf5k1hJn4M@^>Q3
+R0
+IjU9AO=b9K27aaU9i9@oR03
+R1
+R6
+w1658808368
+R8
+R9
+!i122 33
+R12
+R2
+r1
+!s85 0
+31
+!s108 1658808447.000000
+R11
+R3
+!i113 1
+R4
+vT_ff
+!s110 1658376991
+!i10b 1
+!s100 IzLL;@R5RFJRdA>g2]QR^1
+R0
+IzbjA6Bf50XmnnG:GY<DJ50
+R1
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project31_T-ff/sim/modelsim
+w1658376786
+8../../src/rtl/Tff.v
+F../../src/rtl/Tff.v
+!i122 10
+L0 1 23
+R2
+r1
+!s85 0
+31
+!s108 1658376991.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/Tff.v|
+R3
+!i113 1
+R4
+n@t_ff
+vtestbench
+R5
+!i10b 1
+!s100 6OWHd]KX[B2_BD;d2B_8d1
+R0
+IH[^`nHZo@:bmF^SRfi7`00
+R1
+R6
+w1658808437
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 34
+L0 2 21
+R2
+r1
+!s85 0
+31
+R10
+R11
+R3
+!i113 1
+R4

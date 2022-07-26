@@ -16,7 +16,7 @@ module D_ff(q, qb, d, clk, reset);
             end
             else
             begin
-                q <= 1'b1; qb = 1'b0;
+                q <= 1'b1; qb <= 1'b0;
             end
         end
 

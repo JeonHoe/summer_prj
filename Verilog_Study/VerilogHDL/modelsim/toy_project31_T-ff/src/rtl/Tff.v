@@ -16,7 +16,7 @@ module T_ff(q, qb, t, clk, reset);
             end
             else
             begin
-                q <= qb; qb = q;
+                q <= qb; qb <= q;
             end
         end
 

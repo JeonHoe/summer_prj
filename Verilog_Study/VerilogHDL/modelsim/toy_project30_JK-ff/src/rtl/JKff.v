@@ -7,7 +7,7 @@ module JK_ff(q, qb, j, k, clk, reset);
     begin
         if (reset)
         begin
-            q = 1'b0; qb = 1'b1;
+            q <= 1'b0; qb <= 1'b1;
         end
         else if (j == 1'b0 && k == 1'b0)
         begin

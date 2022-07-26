@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project33_counter-ring/sim/modelsim
+vD_ff
+Z1 !s110 1658806504
+!i10b 1
+!s100 YMKWjLcG63JDY0ofSeZRO0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_=do523@MPhFm01]B5Qm`0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1658806495
+Z5 8../../src/rtl/ring_counter.v
+Z6 F../../src/rtl/ring_counter.v
+!i122 35
+L0 22 22
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1658806503.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/ring_counter.v|
+Z9 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z10 tCvgOpt 0
+n@d_ff
+vD_ff_n
+R1
+!i10b 1
+!s100 a]fzC?A16?[komC@=2cSk1
+R2
+IfYJ;lozMfT;JgMo5>hdOS1
+R3
+R0
+R4
+R5
+R6
+!i122 35
+L0 45 22
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 ../../testbench/testbench.v|../../src/rtl/ring_counter.v|
+R9
+!i113 1
+R10
+n@d_ff_n
+vring_counter
+R1
+!i10b 1
+!s100 jQnb08J@CkYOHIm@[AZ7M3
+R2
+IBgR3gmV=d_?zJF^PUC]WE3
+R3
+R0
+R4
+R5
+R6
+!i122 35
+L0 1 19
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
+vtestbench
+R1
+!i10b 1
+!s100 TL1BVU_n_?B1NQScKFBgW1
+R2
+IQGH?;Hefk<Aom<NU8z5mU2
+R3
+R0
+w1658806252
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 35
+L0 2 21
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 1
+R10
