@@ -1,0 +1,121 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project22_ripple-carry_adder/sim/modelsim
+vbit4_fulladd
+Z1 !s110 1658903096
+!i10b 1
+!s100 QeWIbI[3?d>MShLW;czgV2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzSD9PC=:3:0zeJcJSg1NA1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project40_ripple-carry_adder/sim/modelsim
+Z5 w1658902761
+Z6 8../../src/rtl/ripple_add.v
+Z7 F../../src/rtl/ripple_add.v
+!i122 16
+L0 22 15
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1658903096.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/ripple_add.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z11 tCvgOpt 0
+vfulladd
+R1
+!i10b 1
+!s100 jNhWPo@]5YcRQh;CODckc1
+R2
+I[aC;5WOOI@J]4lSj<fcFo0
+R3
+R4
+R5
+R6
+R7
+!i122 16
+L0 38 9
+R8
+r1
+!s85 0
+31
+R9
+Z12 !s107 ../../testbench/testbench.v|../../src/rtl/ripple_add.v|
+R10
+!i113 1
+R11
+vripple_carry_add
+R1
+!i10b 1
+!s100 W940mjl=8baA=Ozi_@3O40
+R2
+Ig1PGWlRo8EBhYj06PQjzc1
+R3
+R4
+R5
+R6
+R7
+!i122 16
+L0 1 19
+R8
+r1
+!s85 0
+31
+R9
+R12
+R10
+!i113 1
+R11
+vrippleadd
+!s110 1658196764
+!i10b 1
+!s100 1ahaOn5iR?J`R;?C5ZmES2
+R2
+I9]a_U_hfO@I@UVnPY=M:^1
+R3
+R0
+w1658196190
+8../../src/rtl/ripple.v
+F../../src/rtl/ripple.v
+!i122 9
+L0 1 15
+R8
+r1
+!s85 0
+31
+!s108 1658196764.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/ripple.v|
+R10
+!i113 1
+R11
+vtestbench
+R1
+!i10b 1
+!s100 7oGhi2H:7BWH4GEbFh=PJ3
+R2
+Il:9THBBNAIEXKCaoFaLf?3
+R3
+R4
+w1658903091
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 16
+L0 2 16
+R8
+r1
+!s85 0
+31
+R9
+R12
+R10
+!i113 1
+R11

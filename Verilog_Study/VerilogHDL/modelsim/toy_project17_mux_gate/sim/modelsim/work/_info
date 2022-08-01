@@ -10,23 +10,23 @@ z2
 cModel Technology
 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project_xor_gate/sim/modelsim
 vmux
-Z0 !s110 1658203412
+Z0 !s110 1658817184
 !i10b 1
 !s100 b<Cc^o=^L]L1[]D`Ag^D?0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IMck2I=fJa?7<fagdjKlTI2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project18_mux_gate/sim/modelsim
+Z3 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project17_mux_gate/sim/modelsim
 w1658192824
 8../../src/rtl/mux.v
 F../../src/rtl/mux.v
-!i122 39
+!i122 40
 L0 1 16
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1658203412.000000
+Z5 !s108 1658817183.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/mux.v|
 Z6 !s90 -reportprogress|300|-f|run.f|
 !i113 1
@@ -64,7 +64,7 @@ R3
 w1658203399
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 39
+!i122 40
 L0 1 32
 R4
 r1

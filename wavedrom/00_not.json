@@ -1,5 +1,10 @@
 {"signal":[
-  {"name": "in", "wave": "l...h..."},
+  ["not_gate",
+  ["input",
+  {"name": "in", "wave": "l...h..."}
+  ],
   {},
+  ["output",
   {"name": "out", "wave": "h...l..."}
-]}
+  ]
+]]}

@@ -1,0 +1,12 @@
+{"signal": [
+    ["half_subtracter",
+    ["input",
+     {"name" : "a", "wave" : "l...h..."},
+     {"name" : "b", "wave" : "l.h.l.h."}
+    ],
+     {},
+    ["output",
+     {"name" : "diff", "wave" : "l.h...l."},
+     {"name" : "b_out", "wave" : "l.h.l..."}
+    ]
+  ]]}

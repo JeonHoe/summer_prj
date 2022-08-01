@@ -1,0 +1,16 @@
+{"signal": [
+    ["decoder",
+    ["input",
+     {"name" : "in", "wave" : "23456789", "data" : "000 001 010 011 100 101 110 111"}
+    ],
+    ["output",
+     {"name" : "out1", "wave" : "hl......"},
+     {"name" : "out2", "wave" : "lhl....."},
+     {"name" : "out3", "wave" : "l.hl...."},
+     {"name" : "out4", "wave" : "l..hl..."},
+     {"name" : "out5", "wave" : "l...hl.."},
+     {"name" : "out6", "wave" : "l....hl."},
+     {"name" : "out7", "wave" : "l.....hl"},
+     {"name" : "out8", "wave" : "l......h"}
+    ]
+  ]]}
