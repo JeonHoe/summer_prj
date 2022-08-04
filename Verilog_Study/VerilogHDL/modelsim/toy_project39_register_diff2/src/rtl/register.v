@@ -4,49 +4,27 @@ module  register_diff2(out, pd_in, d_in, ld, clk, reset); // (직렬 입력 + �
     input [3:0] pd_in;
     output reg out;
 
-    wire [3:0] q, qb;
-    wire [3:0] d;
+    reg [3:0] q;
 
-    assign d[3] = ((pd_in[0] && ld) || (d_in && ~ld));
-    assign d[2] = ((pd_in[1] && ld) || (q[3] && ~ld));
-    assign d[1] = ((pd_in[2] && ld) || (q[2] && ~ld));
-    assign d[0] = ((pd_in[3] && ld) || (q[1] && ~ld));
-
-
-    D_ff dff1 (q[3], qb[3], d[3], clk, , reset);
-    D_ff dff2 (q[2], qb[2], d[2], clk, , reset);
-    D_ff dff3 (q[1], qb[1], d[1], clk, , reset);
-    D_ff dff4 (q[0], qb[0], d[0], clk, , reset);
-    
-    always @ (q[0])
-            out <= q[0];
-
-endmodule
-
-module D_ff(q, qb, d, clk, set, reset);
-
-    input d, clk, set, reset;
-    output q, qb;
-    reg q, qb;
-    
-    always @ (posedge clk, negedge set, negedge reset)
+    always @ (posedge ld, posedge clk, negedge reset)
+    begin
+        if (reset == 0 && ld == 0)
         begin
-            if (!set)
-            begin
-                q <= 1'b1; qb <= 1'b0;
-            end
-            else if (!reset)
-            begin
-                q <= 1'b0; qb <= 1'b1;
-            end
-            else if (d == 1'b0)
-            begin
-                q <= 1'b0; qb <= 1'b1;
-            end
-            else if (d == 1'b1)
-            begin
-                q <= 1'b1; qb <= 1'b0;
-            end
+            q = 0;
         end
-endmodule
+        else if (reset == 1 && ld == 1)
+        begin
+            q <= pd_in;
+        end
+        else
+        begin
+        q[0] <= q[1];
+        q[1] <= q[2];
+        q[2] <= q[3];
+        q[3] <= d_in;
+        end
+    end
 
+    always @ (q) out = q[0];
+
+endmodule

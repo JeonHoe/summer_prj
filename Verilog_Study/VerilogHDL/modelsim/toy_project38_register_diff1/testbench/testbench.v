@@ -4,7 +4,7 @@ module testbench();
     reg d_in, clk, reset;
     wire [3:0] out;
 
-    register_diff rd1(out, d_in, clk, , reset);
+    register_diff rd1(out, d_in, clk, reset);
 
     initial clk = 1'b0;
 

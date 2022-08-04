@@ -32,24 +32,24 @@ Z4 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z5 tCvgOpt 0
 vD_ff
-Z6 !s110 1658893846
+!s110 1659502040
 !i10b 1
-!s100 2GnE=0CRd?e5KM]a>d;831
+!s100 h2lUd7bRP7IC<a:VOf<e92
 R0
-I;FDbW6gHb:c6d=Glg]TRM2
+IAa2=[:<G8NKAMO:1=BFh>1
 R1
-Z7 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project39_register_diff2/sim/modelsim
-Z8 w1658893307
-Z9 8../../src/rtl/register.v
-Z10 F../../src/rtl/register.v
-!i122 67
-L0 26 26
+Z6 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project39_register_diff2/sim/modelsim
+w1659501997
+Z7 8../../src/rtl/register.v
+Z8 F../../src/rtl/register.v
+!i122 74
+L0 46 26
 R3
 r1
 !s85 0
 31
-Z11 !s108 1658893846.000000
-Z12 !s107 ../../testbench/testbench.v|../../src/rtl/register.v|
+!s108 1659502040.000000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/register.v|
 R4
 !i113 1
 R5
@@ -61,18 +61,18 @@ vgray_counter
 R0
 I7B`i7T;C2`m<^gdk<z27h3
 R1
-Z13 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
+Z10 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
 w1658808463
-Z14 8../../src/rtl/gray_counter.v
-Z15 F../../src/rtl/gray_counter.v
+Z11 8../../src/rtl/gray_counter.v
+Z12 F../../src/rtl/gray_counter.v
 !i122 34
-Z16 L0 1 20
+Z13 L0 1 20
 R3
 r1
 !s85 0
 31
 !s108 1658808469.000000
-Z17 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
+Z14 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
 R4
 !i113 1
 R5
@@ -83,18 +83,18 @@ vjohnson_counter
 R0
 IjU9AO=b9K27aaU9i9@oR03
 R1
-R13
+R10
 w1658808368
-R14
-R15
+R11
+R12
 !i122 33
-R16
+R13
 R3
 r1
 !s85 0
 31
 !s108 1658808447.000000
-R17
+R14
 R4
 !i113 1
 R5
@@ -105,10 +105,10 @@ vregister_diff
 R0
 I>e>1W^2[F3O[QZ^B7QhTC2
 R1
-R7
+R6
 w1658888684
-R9
-R10
+R7
+R8
 !i122 48
 R2
 R3
@@ -116,29 +116,29 @@ r1
 !s85 0
 31
 !s108 1658892278.000000
-R12
+R9
 R4
 !i113 1
 R5
 vregister_diff2
-R6
+Z15 !s110 1659502319
 !i10b 1
-!s100 ofmc]2Alj9Io6EK[YXFm32
+!s100 nXLF<i;HQ[9Dk7aP=L1z62
 R0
-IfcGOa_GaZiMS@^ZeV?C>N1
+I]X?RS`l0c[n6XhH[_27=Z3
 R1
+R6
+w1659502314
 R7
 R8
-R9
-R10
-!i122 67
-L0 1 24
+!i122 76
+L0 1 30
 R3
 r1
 !s85 0
 31
-R11
-R12
+Z16 !s108 1659502319.000000
+R9
 R4
 !i113 1
 R5
@@ -166,24 +166,24 @@ R4
 R5
 n@t_ff
 vtestbench
-R6
+R15
 !i10b 1
-!s100 12XP`>n<FnZgTzj68P>7Q2
+!s100 d7O`Ebj]4?gE7^307D=>C1
 R0
-IboBll_EGN^:RY>O[g3K2B2
+IJDS?KmM5MZRlJkM4Z4jkS1
 R1
-R7
-w1658893836
+R6
+w1659502112
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 67
-L0 2 23
+!i122 76
+L0 2 25
 R3
 r1
 !s85 0
 31
-R11
-R12
+R16
+R9
 R4
 !i113 1
 R5

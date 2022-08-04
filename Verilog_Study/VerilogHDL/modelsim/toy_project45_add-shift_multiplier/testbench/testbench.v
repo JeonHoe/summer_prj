@@ -8,7 +8,7 @@ module testbench();
 
     initial
     begin
-        a = 4'b1101; b = 4'b1001;
+        a = 4'b1101; b = 4'b0011;
         #10 $stop;
     end
 

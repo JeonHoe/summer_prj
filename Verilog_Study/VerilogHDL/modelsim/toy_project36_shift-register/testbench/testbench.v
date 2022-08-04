@@ -1,11 +1,15 @@
 `timescale 1ns/1ps
 module testbench();
     
-    reg ld, sl, sr, reset;
+    reg clk, ld, sl, sr, reset;
     reg [3:0] d_in;
     wire [3:0] out;
 
-    shift_register shftreg1(out, d_in, ld, sl, sr, reset);
+    shift_register shftreg1(out, d_in, clk, ld, sl, sr, reset);
+
+    initial clk = 1'b0;
+
+    always #10 clk = ~clk;
 
     initial
     begin

@@ -13,7 +13,7 @@ module testbench();
 
     initial
     begin
-        ld = 1'b0; reset = 1'b0; d_in = 4'b1011;
+        ld = 1'b0; reset = 1'b0; d_in = 4'b1010;
         #15 reset = ~reset;
         #20 ld = ~ld;
         #10 ld = ~ld;

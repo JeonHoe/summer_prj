@@ -32,23 +32,23 @@ Z3 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z4 tCvgOpt 0
 vD_ff
-Z5 !s110 1658895709
+!s110 1658895709
 !i10b 1
 !s100 4foeQYbZVcDI[3>2:P<d]0
 R0
 IMg3_KSCRT`iANGF;k^z0e2
 R1
-Z6 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project36_shift-register/sim/modelsim
-Z7 w1658895692
-Z8 8../../src/rtl/shift-register.v
-Z9 F../../src/rtl/shift-register.v
+Z5 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project36_shift-register/sim/modelsim
+w1658895692
+Z6 8../../src/rtl/shift-register.v
+Z7 F../../src/rtl/shift-register.v
 !i122 39
 L0 31 26
 R2
 r1
 !s85 0
 31
-Z10 !s108 1658895709.000000
+!s108 1658895709.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/shift-register.v|
 R3
 !i113 1
@@ -61,18 +61,18 @@ vgray_counter
 R0
 I7B`i7T;C2`m<^gdk<z27h3
 R1
-Z11 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
+Z8 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
 w1658808463
-Z12 8../../src/rtl/gray_counter.v
-Z13 F../../src/rtl/gray_counter.v
+Z9 8../../src/rtl/gray_counter.v
+Z10 F../../src/rtl/gray_counter.v
 !i122 34
-Z14 L0 1 20
+Z11 L0 1 20
 R2
 r1
 !s85 0
 31
 !s108 1658808469.000000
-Z15 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
+Z12 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
 R3
 !i113 1
 R4
@@ -83,40 +83,40 @@ vjohnson_counter
 R0
 IjU9AO=b9K27aaU9i9@oR03
 R1
-R11
+R8
 w1658808368
-R12
-R13
+R9
+R10
 !i122 33
-R14
+R11
 R2
 r1
 !s85 0
 31
 !s108 1658808447.000000
-R15
+R12
 R3
 !i113 1
 R4
 vshift_register
-R5
+Z13 !s110 1659418694
 !i10b 1
-!s100 [^5UcCSAIA>[[@HIn^n:=2
+!s100 FVezZ10RbN1U`nA`fOU>S2
 R0
-Ii3IN8CmcL5>UY0<EoF<8n2
+I=3XDXY8TnLi;95ohV_njl2
 R1
+R5
+w1659418683
 R6
 R7
-R8
-R9
-!i122 39
-L0 1 29
+!i122 40
+L0 1 35
 R2
 r1
 !s85 0
 31
-R10
-Z16 !s107 ../../testbench/testbench.v|../../src/rtl/shift-register.v|
+Z14 !s108 1659418694.000000
+Z15 !s107 ../../testbench/testbench.v|../../src/rtl/shift-register.v|
 R3
 !i113 1
 R4
@@ -144,24 +144,24 @@ R3
 R4
 n@t_ff
 vtestbench
-R5
+R13
 !i10b 1
 !s100 C<XM_Hj=A_nPeFKb`gdMf3
 R0
 ISQW=PED:DdV;0^7Pd>0oF0
 R1
-R6
+R5
 w1658895645
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 39
+!i122 40
 L0 2 22
 R2
 r1
 !s85 0
 31
-R10
-R16
+R14
+R15
 R3
 !i113 1
 R4

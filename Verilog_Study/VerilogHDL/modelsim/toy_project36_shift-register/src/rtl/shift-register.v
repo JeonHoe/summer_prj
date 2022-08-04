@@ -1,57 +1,36 @@
-module  shift_register(out, d_in, ld, sl, sr, reset);
+module  shift_register(out, d_in, clk, ld, sl, sr, reset);
 
-    input ld, sl, sr, reset;
+    input clk, ld, sl, sr, reset;
     input [3:0] d_in;
     output reg [3:0] out;
 
-    wire [3:0] q, qb;
-    wire [3:0] d;
-
-    assign d[3] = sl && q[2];
-    assign d[2] = (sl && q[1]) || (sr && q[3]);
-    assign d[1] = (sl && q[0]) || (sr && q[2]);
-    assign d[0] = sr && q[1];
-
-
-    D_ff dff1 (q[3], qb[3], d[3], ((sl && ~sr) || (~sl && sr)), ~(ld && d_in[3]), reset);
-    D_ff dff2 (q[2], qb[2], d[2], ((sl && ~sr) || (~sl && sr)), ~(ld && d_in[2]), reset);
-    D_ff dff3 (q[1], qb[1], d[1], ((sl && ~sr) || (~sl && sr)), ~(ld && d_in[1]), reset);
-    D_ff dff4 (q[0], qb[0], d[0], ((sl && ~sr) || (~sl && sr)), ~(ld && d_in[0]), reset);
+    always @ (posedge clk, negedge reset)
+    if (reset == 0) out = 4'b0;
     
-    always @ (q) 
+    always @ (posedge clk, posedge ld)
     begin
-        out[3] = q[3];
-        out[2] = q[2];
-        out[1] = q[1];
-        out[0] = q[0];
+    if (ld) out = d_in;
+    else out = out;
     end
 
-endmodule
+    always @ (posedge clk, posedge sl, posedge sr)
+    begin
+    if (sl == 1 && sr == 0)
+    begin
+        out[3] <= out[2];
+        out[2] <= out[1];
+        out[1] <= out[0];
+        out[0] <= 0;
+    end
+    else if (sl == 0 && sr == 1)
+    begin
+        out[0] <= out[1];
+        out[1] <= out[2];
+        out[2] <= out[3];
+        out[3] <= 0;
+    end
+    else out = out;
+    end
 
-module D_ff(q, qb, d, clk, set, reset);
-
-    input d, clk, set, reset;
-    output q, qb;
-    reg q, qb;
-    
-    always @ (posedge clk, negedge set, negedge reset)
-        begin
-            if (!set)
-            begin
-                q <= 1'b1; qb <= 1'b0;
-            end
-            else if (!reset)
-            begin
-                q <= 1'b0; qb <= 1'b1;
-            end
-            else if (d == 1'b0)
-            begin
-                q <= 1'b0; qb <= 1'b1;
-            end
-            else if (d == 1'b1)
-            begin
-                q <= 1'b1; qb <= 1'b0;
-            end
-        end
 endmodule
 

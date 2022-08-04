@@ -1,0 +1,368 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project22_ripple-carry_adder/sim/modelsim
+vadd_shift_multiplier
+Z1 !s110 1659594773
+!i10b 1
+!s100 LkV9SjimNI9RgmV[6WC8j3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJOi>_;ZcRMEMI?hD>h`KE2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project45_add-shift_multiplier_diff/sim/modelsim
+w1659594196
+Z5 8../../src/rtl/add-shift_multiplier.v
+Z6 F../../src/rtl/add-shift_multiplier.v
+!i122 43
+L0 1 26
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1659594773.000000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/add-shift_multiplier.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z11 tCvgOpt 0
+vbit32_CLA
+!s110 1658978350
+!i10b 1
+!s100 ]HV97JFm@2E<OYmW_A>l12
+R2
+I67m=FW34B>?UIZRP?M2;01
+R3
+Z12 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project44_carry_lookahead_adder_subtracter/sim/modelsim
+w1658978346
+Z13 8../../src/rtl/carry_lookahead_adder_subtracter.v
+Z14 F../../src/rtl/carry_lookahead_adder_subtracter.v
+!i122 22
+Z15 L0 1 29
+R7
+r1
+!s85 0
+31
+!s108 1658978350.000000
+Z16 !s107 ../../testbench/testbench.v|../../src/rtl/carry_lookahead_adder_subtracter.v|
+R10
+!i113 1
+R11
+nbit32_@c@l@a
+vbit32_CLAS
+Z17 !s110 1659327698
+!i10b 1
+!s100 BYTBKc0Q^FS:WS1l^@EK72
+R2
+I9oT72z^Ya?z>@NQ[GSD4L0
+R3
+R12
+Z18 w1658978399
+R13
+R14
+!i122 26
+R15
+R7
+r1
+!s85 0
+31
+Z19 !s108 1659327698.000000
+R16
+R10
+!i113 1
+R11
+nbit32_@c@l@a@s
+vbit4_CLA
+R17
+!i10b 1
+!s100 I;XAjcL:KNdF3<j`^oh]@2
+R2
+IUA0RV6H[[^S;ke]<WDlMK1
+R3
+R12
+R18
+R13
+R14
+!i122 26
+L0 32 15
+R7
+r1
+!s85 0
+31
+R19
+R16
+R10
+!i113 1
+R11
+nbit4_@c@l@a
+vbit4_fulladd
+Z20 !s110 1659404547
+!i10b 1
+!s100 BZZFj7Xb;o]=X4MlEoc6]1
+R2
+IzTYHPm?abnIQ_UZ=^=B1[1
+R3
+Z21 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project45_add-shift_multiplier/sim/modelsim
+Z22 w1659328557
+R5
+R6
+!i122 32
+L0 39 15
+R7
+r1
+!s85 0
+31
+Z23 !s108 1659404547.000000
+R9
+R10
+!i113 1
+R11
+vbit4_one_complement
+R17
+!i10b 1
+!s100 b_2oU4f3@?G?1bobmM=<g3
+R2
+ICe0R[]h0Oi<>O0f1DP5gF2
+R3
+R12
+R18
+R13
+R14
+!i122 26
+L0 63 12
+R7
+r1
+!s85 0
+31
+R19
+R16
+R10
+!i113 1
+R11
+vbit4_SASM
+R20
+!i10b 1
+!s100 78fRQj8ABHL<YoR<QC];O1
+R2
+IYL@Ag?EkgCefJ9mLo]2:l2
+R3
+R21
+R22
+R5
+R6
+!i122 32
+L0 1 23
+R7
+r1
+!s85 0
+31
+R23
+R9
+R10
+!i113 1
+R11
+nbit4_@s@a@s@m
+vbit8_fulladd
+R20
+!i10b 1
+!s100 Cj_YRk@P[]JJhB`INJZL]2
+R2
+I1Me]IJOe`?Wh4h4EF>VI<3
+R3
+R21
+R22
+R5
+R6
+!i122 32
+L0 25 13
+R7
+r1
+!s85 0
+31
+R23
+R9
+R10
+!i113 1
+R11
+vCLA
+R17
+!i10b 1
+!s100 NWbA=<8;g]B<g^1nG5X9[2
+R2
+IfN5AM4HQbM`g_XKXJ76jm3
+R3
+R12
+R18
+R13
+R14
+!i122 26
+L0 48 14
+R7
+r1
+!s85 0
+31
+R19
+R16
+R10
+!i113 1
+R11
+n@c@l@a
+vfulladd
+R20
+!i10b 1
+!s100 1zlbMnR`lS<BPI`BLnzVi1
+R2
+ICW0VIJB`VTT5`0_9RFZAH1
+R3
+R21
+R22
+R5
+R6
+!i122 32
+L0 55 9
+R7
+r1
+!s85 0
+31
+R23
+R9
+R10
+!i113 1
+R11
+vmux
+R20
+!i10b 1
+!s100 [KE;<`J8_]0LVNK4zje[b3
+R2
+IC01:Y489=Aeg]Znn]9aK53
+R3
+R21
+R22
+R5
+R6
+!i122 32
+L0 65 10
+R7
+r1
+!s85 0
+31
+R23
+R9
+R10
+!i113 1
+R11
+vone_complement
+R17
+!i10b 1
+!s100 AN5O=576RN<Mk5`;d`UfW2
+R2
+IC_V^8`QFfgj;AlW?Nj>@N2
+R3
+R12
+R18
+R13
+R14
+!i122 26
+L0 76 8
+R7
+r1
+!s85 0
+31
+R19
+R16
+R10
+!i113 1
+R11
+vripple_carry_add
+!s110 1658903096
+!i10b 1
+!s100 W940mjl=8baA=Ozi_@3O40
+R2
+Ig1PGWlRo8EBhYj06PQjzc1
+R3
+dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project40_ripple-carry_adder/sim/modelsim
+w1658902761
+8../../src/rtl/ripple_add.v
+F../../src/rtl/ripple_add.v
+!i122 16
+L0 1 19
+R7
+r1
+!s85 0
+31
+!s108 1658903096.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/ripple_add.v|
+R10
+!i113 1
+R11
+vrippleadd
+!s110 1658196764
+!i10b 1
+!s100 1ahaOn5iR?J`R;?C5ZmES2
+R2
+I9]a_U_hfO@I@UVnPY=M:^1
+R3
+R0
+w1658196190
+8../../src/rtl/ripple.v
+F../../src/rtl/ripple.v
+!i122 9
+L0 1 15
+R7
+r1
+!s85 0
+31
+!s108 1658196764.000000
+!s107 ../../testbench/testbench.v|../../src/rtl/ripple.v|
+R10
+!i113 1
+R11
+vshifter
+R20
+!i10b 1
+!s100 KD`;bh4bQ?OMOol:iR0Q13
+R2
+IXJb3TT692bYG<CPUfzEih1
+R3
+R21
+R22
+R5
+R6
+!i122 32
+L0 76 9
+R7
+r1
+!s85 0
+31
+R23
+R9
+R10
+!i113 1
+R11
+vtestbench
+R1
+!i10b 1
+!s100 l=`d[zg_igiBQk5GY`AlV0
+R2
+IP;XgP?CzkD@kCP]V?2XZX2
+R3
+R4
+w1659594768
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 43
+L0 2 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11

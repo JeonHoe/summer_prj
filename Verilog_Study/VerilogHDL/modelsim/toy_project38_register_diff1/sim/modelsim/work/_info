@@ -21,38 +21,38 @@ w1658575876
 8../../src/rtl/b_counter.v
 F../../src/rtl/b_counter.v
 !i122 21
-Z2 L0 1 22
-Z3 OV;L;2020.1;71
+L0 1 22
+Z2 OV;L;2020.1;71
 r1
 !s85 0
 31
 !s108 1658576077.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/b_counter.v|
-Z4 !s90 -reportprogress|300|-f|run.f|
+Z3 !s90 -reportprogress|300|-f|run.f|
 !i113 1
-Z5 tCvgOpt 0
+Z4 tCvgOpt 0
 vD_ff
-Z6 !s110 1658888591
+!s110 1659500617
 !i10b 1
-!s100 4W[`Q8IKAG^N33IX?E4Qk1
+!s100 QS]z>BFDM<NQNINF@zhYF3
 R0
-I64ZH9nIjnPoLlY7W@R]k43
+Ii;nPbRiT07<mEjDHK:QA93
 R1
-Z7 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project38_register_diff/sim/modelsim
-Z8 w1658888343
-Z9 8../../src/rtl/register.v
-Z10 F../../src/rtl/register.v
-!i122 45
-L0 24 26
-R3
+Z5 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project38_register_diff1/sim/modelsim
+w1659500612
+Z6 8../../src/rtl/register.v
+Z7 F../../src/rtl/register.v
+!i122 61
+L0 23 26
+R2
 r1
 !s85 0
 31
-Z11 !s108 1658888591.000000
+!s108 1659500617.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/register.v|
-R4
+R3
 !i113 1
-R5
+R4
 n@d_ff
 vgray_counter
 !s110 1658808469
@@ -61,21 +61,21 @@ vgray_counter
 R0
 I7B`i7T;C2`m<^gdk<z27h3
 R1
-Z12 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
+Z8 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project35_counter-gray/sim/modelsim
 w1658808463
-Z13 8../../src/rtl/gray_counter.v
-Z14 F../../src/rtl/gray_counter.v
+Z9 8../../src/rtl/gray_counter.v
+Z10 F../../src/rtl/gray_counter.v
 !i122 34
-Z15 L0 1 20
-R3
+Z11 L0 1 20
+R2
 r1
 !s85 0
 31
 !s108 1658808469.000000
-Z16 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
-R4
+Z12 !s107 ../../testbench/testbench.v|../../src/rtl/gray_counter.v|
+R3
 !i113 1
-R5
+R4
 vjohnson_counter
 !s110 1658808447
 !i10b 1
@@ -83,43 +83,43 @@ vjohnson_counter
 R0
 IjU9AO=b9K27aaU9i9@oR03
 R1
-R12
+R8
 w1658808368
-R13
-R14
+R9
+R10
 !i122 33
-R15
-R3
+R11
+R2
 r1
 !s85 0
 31
 !s108 1658808447.000000
-R16
-R4
-!i113 1
-R5
-vregister_diff
-R6
-!i10b 1
-!s100 <DnAdn9i;1R:dJ0:eNWUk2
-R0
-I>e>1W^2[F3O[QZ^B7QhTC2
-R1
-R7
-R8
-R9
-R10
-!i122 45
-R2
+R12
 R3
+!i113 1
+R4
+vregister_diff
+Z13 !s110 1659501542
+!i10b 1
+!s100 B4KUFHA[i]YkQHkHVUGW91
+R0
+IA1XSg=dHbieK7?1P_mJV]0
+R1
+R5
+w1659501529
+R6
+R7
+!i122 65
+L0 1 25
+R2
 r1
 !s85 0
 31
-R11
-Z17 !s107 ../../testbench/testbench.v|../../src/rtl/register.v|
-R4
+Z14 !s108 1659501542.000000
+Z15 !s107 ../../testbench/testbench.v|../../src/rtl/register.v|
+R3
 !i113 1
-R5
+R4
 vT_ff
 !s110 1658376991
 !i10b 1
@@ -133,35 +133,35 @@ w1658376786
 F../../src/rtl/Tff.v
 !i122 10
 L0 1 23
-R3
+R2
 r1
 !s85 0
 31
 !s108 1658376991.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/Tff.v|
-R4
+R3
 !i113 1
-R5
+R4
 n@t_ff
 vtestbench
-R6
+R13
 !i10b 1
-!s100 H0Rh6Vd<>l5InhQ3<n;?[3
+!s100 e??AdI@=01k:BbIC65m9F0
 R0
-Izl7E_:f<V7B=2RfclmWVn2
+Iaz>J0Fc_m6hTWjWg9DG9R1
 R1
-R7
-w1658888586
+R5
+w1659492717
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 45
+!i122 65
 L0 2 23
-R3
+R2
 r1
 !s85 0
 31
-R11
-R17
-R4
+R14
+R15
+R3
 !i113 1
-R5
+R4
