@@ -1,0 +1,16 @@
+{"signal": [
+  ["Shift Register",
+   ["input",
+    {"name": "clk", "wave": "P........", "period": "2"},
+     {"name": "reset", "wave": "lh................"},
+    {"name": "ld", "wave": "l..hl............."},
+    {"name": "sl", "wave": "l......hl........."},
+    {"name": "sr", "wave": "l..........hl....."},
+    {"name": "d_in", "wave": "=.................", "data": "1011"}
+   ],
+   {},
+   ["output",
+    {"name": "out", "wave": "=..=....=...=.....", "data": "0000 1011 0110 0011"}
+   ]
+  ]
+]}

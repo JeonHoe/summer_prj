@@ -1,7 +1,10 @@
 {"signal": [
-  {"name": "a", "wave": "l...h..."},
-  {"name": "b", "wave": "l.h.l.h."},
-  {"name": "c", "wave": "lhlhlhlh" },
-  {},
-  {"name": "out", "wave": "lh.lhl.h"}
-]}
+  ["xor",
+   ["input",
+    {"name": "a", "wave": "l...h..."},
+    {"name": "b", "wave": "l.h.l.h."},
+    {"name": "c", "wave": "lhlhlhlh"}],
+    {},
+   ["output",
+    {"name": "out", "wave": "lh.lhl.h"}]
+ ]]}

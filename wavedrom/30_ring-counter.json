@@ -1,0 +1,11 @@
+{"signal": [
+  ["Ring Counter",
+   ["input",
+    {"name": "clk", "wave": "P.......", "period": "2"},
+    {"name": "reset", "wave" : "lh.............."}],
+    {},
+   ["output",
+    {"name": "Q1", "wave": "l.h...l...h...l."},
+    {"name": "Q2", "wave": "l...h...l...h..."},
+    {"name": "Q3", "wave": "h.l...h...l...h."}]
+  ]]}

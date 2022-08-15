@@ -17,11 +17,9 @@ module testbench();
         s <= 1'b0; r <= 1'b0;
         #20 s <= 1'b1; r <= 1'b0;
         #10 s <= 1'b0; r <= 1'b0;
-        #20 s <= 1'b0; r <= 1'b1;
+        #10 s <= 1'b0; r <= 1'b1;
         #10 s <= 1'b0; r <= 1'b0;
-        #20 s <= 1'b1; r <= 1'b0;
-        #10 s <= 1'b0; r <= 1'b0;
-        #20 $stop;
+        #10 $stop;
     end
 
 endmodule

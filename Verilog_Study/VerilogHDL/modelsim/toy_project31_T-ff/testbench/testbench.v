@@ -6,26 +6,24 @@ module testbench();
 
     T_ff tff1(q, qb, t, clk, reset);
 
-    initial clk = 1'b0;
+    initial clk = 1'b1;
 
-    always #5 clk = ~clk;
+    always #10 clk = ~clk;
 
     initial
     begin
         reset = 1'b1;
-        #12 reset = ~reset;
-        #55 reset = ~reset;
         #10 reset = ~reset;
     end
 
     initial
     begin
-        t = 1'b1;
-        #17 t = 1'b0;
-        #15 t = 1'b1;
+        t = 1'b0;
+        #30 t = 1'b1;
         #20 t = 1'b0;
         #20 t = 1'b1;
-        #20 $stop;
+        #20 t = 1'b0;
+        #30 $stop;
     end
 
 endmodule

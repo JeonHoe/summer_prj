@@ -1,0 +1,12 @@
+{"signal": [
+  ["SR-f/f",
+   ["input",
+    {"name": "clk", "wave": "P.....", "period": "2"},
+    {"name": "reset", "wave" : "hl.........."},
+    {"name": "S", "wave": "l..h.l......"},
+    {"name": "R", "wave": "l......h.l.."}],
+    {},
+   ["output",
+    {"name": "Q", "wave": "l...h...l..."},
+    {"name":"Qb", "wave": "h...l...h..."}]
+  ]]}

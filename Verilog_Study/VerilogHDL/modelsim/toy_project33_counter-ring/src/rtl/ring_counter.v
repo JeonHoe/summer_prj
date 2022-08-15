@@ -1,19 +1,19 @@
-module  ring_counter(out, clk, reset);
+module  ring_counter(q1, q2, q3, clk, reset);
 
     input clk, reset;
-    output reg [2:0] out;
+    output reg q1, q2, q3;
 
-    wire [2:0] q;
+    wire [2:0] k;
 
-    D_ff dff1 (q[2], , !q[1], clk, reset);
-    D_ff dff2 (q[1], , q[2], clk, reset);
-    D_ff_n dff3 (q[0], , q[1], clk, reset);
+    D_ff dff1 (k[2], , !k[1], clk, reset);
+    D_ff dff2 (k[1], , k[2], clk, reset);
+    D_ff_n dff3 (k[0], , k[1], clk, reset);
 
-    always @ (q)
+    always @ (k)
         begin
-                out[2] <= q[2];
-                out[1] <= q[1];
-                out[0] <= q[0];
+                q1 <= k[2];
+                q2 <= k[1];
+                q3 <= k[0];
         end
 
 endmodule

@@ -32,23 +32,23 @@ Z4 !s90 -reportprogress|300|-f|run.f|
 !i113 1
 Z5 tCvgOpt 0
 vD_ff
-Z6 !s110 1658807984
+Z6 !s110 1660471093
 !i10b 1
 !s100 FTAM@^7e_IzjzWHUEZXfm0
 R0
 IbNR_h[;`KZ22G1V1mBMKE2
 R1
 Z7 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project34_counter-johnson/sim/modelsim
-Z8 w1658806714
+Z8 w1660470864
 Z9 8../../src/rtl/johnson_counter.v
 Z10 F../../src/rtl/johnson_counter.v
-!i122 30
+!i122 33
 L0 24 22
 R3
 r1
 !s85 0
 31
-Z11 !s108 1658807984.000000
+Z11 !s108 1660471092.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/johnson_counter.v|
 R4
 !i113 1
@@ -57,15 +57,15 @@ n@d_ff
 vjohnson_counter
 R6
 !i10b 1
-!s100 ]PH8>=e1=J6B4kcMMz73g3
+!s100 @[Jjc^ldlfJ<LKbW3:U4?2
 R0
-I^hezEPaFTV8n3>J<ckbHi3
+If=iTnR97mL]lOI=H65I>d0
 R1
 R7
 R8
 R9
 R10
-!i122 30
+!i122 33
 R2
 R3
 r1
@@ -102,16 +102,16 @@ n@t_ff
 vtestbench
 R6
 !i10b 1
-!s100 kJdA10QW[V7Ed8eH[02WJ1
+!s100 5GL[lB1[1MeF?oMoG]g9^3
 R0
-IEz`Io4<`X7HcFVXdijf3S0
+Ima4WLNdN1;;DXm_NigSZP1
 R1
 R7
-w1658807912
+w1660471085
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 30
-L0 2 21
+!i122 33
+L0 2 19
 R3
 r1
 !s85 0

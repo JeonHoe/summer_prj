@@ -27,9 +27,4 @@ module  register(out, d_in, ld, clk, reset); // 병렬 입력 - 직렬 출력
         end
     end
 
-    always @ (q)
-    begin
-        
-    end
-
 endmodule

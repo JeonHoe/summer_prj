@@ -1,22 +1,22 @@
-module  johnson_counter(out, clk, reset);
+module  johnson_counter(q1, q2, q3, q4, clk, reset);
 
     input clk, reset;
-    output reg [3:0] out;
+    output reg q1, q2, q3, q4;
 
-    wire [3:0] q;
+    wire [3:0] k;
 
-    D_ff dff1 (q[3], , !q[0], clk, reset);
-    D_ff dff2 (q[2], , q[3], clk, reset);
-    D_ff dff3 (q[1], , q[2], clk, reset);
-    D_ff dff4 (q[0], , q[1], clk, reset);
+    D_ff dff1 (k[3], , !k[0], clk, reset);
+    D_ff dff2 (k[2], , k[3], clk, reset);
+    D_ff dff3 (k[1], , k[2], clk, reset);
+    D_ff dff4 (k[0], , k[1], clk, reset);
 
     
-    always @ (q)
+    always @ (k)
         begin
-            out[3] <= q[3];
-            out[2] <= q[2];
-            out[1] <= q[1];
-            out[0] <= q[0];
+            q1 <= k[3];
+            q2 <= k[2];
+            q3 <= k[1];
+            q4 <= k[0];
         end
 
 endmodule

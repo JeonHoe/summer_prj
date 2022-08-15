@@ -6,31 +6,26 @@ module testbench();
 
     JK_ff jkff1(q, qb, j, k, clk, reset);
 
-    initial clk = 1'b0;
+    initial clk = 1'b1;
 
-    always #5 clk = ~clk;
+    always #10 clk = ~clk;
 
     initial
     begin
         reset = 1'b1;
         #10 reset = ~reset;
-        #72 reset = ~reset;
-        #5 reset = ~reset;
     end
 
     initial
     begin
-        j <= 1'b1; k <= 1'b0;
-        #17 j <= 1'b0; k <= 1'b0;
+        j <= 1'b0; k <= 1'b0;
+        #30 j <= 1'b1; k <= 1'b0;
+        #20 j <= 1'b0; k <= 1'b0;
         #20 j <= 1'b0; k <= 1'b1;
-        #10 j <= 1'b0; k <= 1'b0;
-        #25 j <= 1'b1; k <= 1'b0;
-        #30 j <= 1'b0; k <= 1'b1;
-        #10 j <= 1'b1; k <= 1'b1;
-        #10 j <= 1'b0; k <= 1'b0;
-        #10 j <= 1'b1; k <= 1'b1;
-        #10 j <= 1'b0; k <= 1'b0;
-        #20 $stop;
+        #20 j <= 1'b0; k <= 1'b0;
+        #20 j <= 1'b1; k <= 1'b1;
+        #20 j <= 1'b0; k <= 1'b0;
+        #30 $stop;
     end
 
 endmodule

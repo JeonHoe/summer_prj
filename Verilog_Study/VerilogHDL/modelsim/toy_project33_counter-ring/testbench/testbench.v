@@ -2,21 +2,19 @@
 module testbench();
     
     reg clk, reset;
-    wire [2:0] out;
+    wire q1, q2, q3;
 
-    ring_counter rc1(out, clk, reset);
+    ring_counter rc1(q1, q2, q3, clk, reset);
 
-    initial clk = 1'b0;
+    initial clk = 1'b1;
 
     always #10 clk = ~clk;
 
     initial
     begin
         reset = 1'b0;
-        #15 reset = ~reset;
-        #50 reset = ~reset;
         #10 reset = ~reset;
-        #140 $stop;
+        #150 $stop;
     end
 
 endmodule

@@ -6,12 +6,12 @@ module testbench();
 
     binary_counter bc1(out, clk, reset, ud);
 
-    initial clk = 1'b0;
+    initial clk = 1'b1;
 
     initial
     begin
         ud = 1'b0;
-        #500 ud = ~ud;
+        #70 ud = ~ud;
     end
 
     always #10 clk = ~clk;
@@ -19,8 +19,8 @@ module testbench();
     initial
     begin
         reset = 1'b1;
-        #15 reset = ~reset;
-        #1000 $stop;
+        #10 reset = ~reset;
+        #110 $stop;
     end
 
 endmodule

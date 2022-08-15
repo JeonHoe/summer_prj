@@ -7,20 +7,18 @@ module testbench();
 
     register_diff2 rd1(out, pd_in, d_in, ld, clk, reset);
 
-    initial clk = 1'b0;
+    initial clk = 1'b1;
 
     always #10 clk = ~clk;
 
     initial
     begin
-        reset = 1'b0; ld = 1'b0; d_in = 1'b1; pd_in = 4'b1011;
-        #15 reset = ~reset;
+        reset = 1'b0; ld = 1'b0; d_in = 1'b0; pd_in = 4'b0101;
+        #10 reset = ~reset;
+        #20 ld = ~ld; d_in = 1'b1;
         #10 ld = ~ld;
-        #10 ld = ~ld; d_in = 1'b0;
-        #20 d_in = 1'b1;
-        #20 d_in = 1'b0;
-        #20 d_in = 1'b1;
-        #80 $stop;
+        #10 d_in = 1'b0;
+        #90 $stop;
     end
 
 endmodule

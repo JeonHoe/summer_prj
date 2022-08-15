@@ -2,21 +2,19 @@
 module testbench();
     
     reg clk, reset;
-    wire [3:0] out;
+    wire q1, q2, q3, q4;
 
-    johnson_counter jc1(out, clk, reset);
+    johnson_counter jc1(q1, q2, q3, q4, clk, reset);
 
-    initial clk = 1'b0;
+    initial clk = 1'b1;
 
     always #10 clk = ~clk;
 
     initial
     begin
         reset = 1'b0;
-        #15 reset = ~reset;
-        #40 reset = ~reset;
         #10 reset = ~reset;
-        #185 $stop;
+        #170 $stop;
     end
 
 endmodule

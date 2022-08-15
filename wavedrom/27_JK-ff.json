@@ -1,0 +1,12 @@
+{"signal": [
+  ["JK-f/f",
+   ["input",
+    {"name": "clk", "wave": "P.......", "period": "2"},
+    {"name": "reset", "wave" : "hl.............."},
+    {"name": "J", "wave": "l..h.l.....h.l.."},
+    {"name": "K", "wave": "l......h.l.h.l.."}],
+    {},
+   ["output",
+    {"name": "Q", "wave": "l...h...l...h..."},
+    {"name":"Qb", "wave": "h...l...h...l..."}]
+  ]]}

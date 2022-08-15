@@ -10,23 +10,23 @@ z2
 cModel Technology
 Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project30_SR-ff/sim/modelsim
 vJK_ff
-Z1 !s110 1658376421
+Z1 !s110 1660564604
 !i10b 1
-!s100 KfnTGd`1HIcG=]MW2jlPV2
+!s100 G4L]U2@mKo]k@HXOAlI9n2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IW[7?nhZ[MiaX55]]R437f3
+IMS:TLb6fTejE?T4ibE4172
 Z3 VDg1SIo80bB@j0V0VzS_@n1
-Z4 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project32_JK-ff/sim/modelsim
-w1658376295
+Z4 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/toy_project30_JK-ff/sim/modelsim
+w1658732215
 8../../src/rtl/JKff.v
 F../../src/rtl/JKff.v
-!i122 47
+!i122 50
 Z5 L0 1 31
 Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z7 !s108 1658376420.000000
+Z7 !s108 1660564604.000000
 !s107 ../../testbench/testbench.v|../../src/rtl/JKff.v|
 Z8 !s90 -reportprogress|300|-f|run.f|
 !i113 1
@@ -81,16 +81,16 @@ n@s@r_latch
 vtestbench
 R1
 !i10b 1
-!s100 cWLbD60<2FBM0RYI<L_TQ3
+!s100 7d28Ub_lN?_LMS?=8]Zk?1
 R2
-IY^hj;DL;ZHmn8A4SoS[_:2
+IzKX@TGlm15fc;K7[0@g0:1
 R3
 R4
-w1658376416
+w1660564575
 8../../testbench/testbench.v
 F../../testbench/testbench.v
-!i122 47
-L0 2 35
+!i122 50
+L0 2 30
 R6
 r1
 !s85 0
