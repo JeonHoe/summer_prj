@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/project/summer_prj/Verilog_Study/VerilogHDL/modelsim/quiz01_diff/sim/modelsim
+vinput3_and
+Z1 !s110 1660712863
+!i10b 1
+!s100 nb>MI1nCe?C6D028Om4`^3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IR2imnz52OEBeX5m?_^SXA3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1660712829
+Z5 8../../src/rtl/quiz01.v
+Z6 F../../src/rtl/quiz01.v
+!i122 3
+L0 47 8
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1660712863.000000
+Z9 !s107 ../../testbench/testbench.v|../../src/rtl/quiz01.v|
+Z10 !s90 -reportprogress|300|-f|run.f|
+!i113 1
+Z11 tCvgOpt 0
+vquiz01
+!s110 1660712823
+!i10b 1
+!s100 GE5e9SnAjG2c?P]5i8];62
+R2
+I>7@10?l?Vb;=;=ETaG1B_0
+R3
+R0
+w1660712819
+R5
+R6
+!i122 1
+Z12 L0 3 43
+R7
+r1
+!s85 0
+31
+!s108 1660712823.000000
+R9
+R10
+!i113 1
+R11
+vquiz01_diff
+R1
+!i10b 1
+!s100 CmfHa^J>?JbRoWA4gkVP03
+R2
+I^mzeM1N4MRCm[W_4nDP7c1
+R3
+R0
+R4
+R5
+R6
+!i122 3
+R12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vtestbench
+R1
+!i10b 1
+!s100 jnFHG8`64JOhA74IK032L3
+R2
+I=a14c5RGF9Dz0_ZN]BzkN0
+R3
+R0
+w1660712859
+8../../testbench/testbench.v
+F../../testbench/testbench.v
+!i122 3
+L0 2 20
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11

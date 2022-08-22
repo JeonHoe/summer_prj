@@ -1,0 +1,9 @@
+{"signal":[
+  ["input",
+  {"name": "clk", "wave": "P...", "period": 2},
+  {"name": "a", "wave": "l...h..."},
+  {"name": "b", "wave": "l.h.l.h."},
+  {"name": "c", "wave": "=...=...", "data": "1011 1101"}],
+  {},
+  ["output",
+   {"name": "out", "wave": "========", "data": "000 001 010 011 100 101 110 111"}]]}
