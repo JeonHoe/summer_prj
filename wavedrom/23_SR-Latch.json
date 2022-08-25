@@ -1,11 +1,9 @@
 {"signal": [
-  ["SR-Latch",
    ["input",
     {"name": "reset", "wave" : "hl...."},
-    {"name": "S", "wave": "l.hl.."},
-    {"name": "R", "wave": "l...hl"}],
+    {"name": "s", "wave": "l.hl.."},
+    {"name": "r", "wave": "l...hl"}],
     {},
    ["output",
-    {"name": "Q", "wave": "l.h.l."},
-    {"name":"Qb", "wave": "h.l.h."}]
- ]]}
+    {"name": "q", "wave": "l.h.l."},
+    {"name":"qb", "wave": "h.l.h."}]]}

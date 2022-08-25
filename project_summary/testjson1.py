@@ -79,27 +79,30 @@ wavejson_schema = {
 		"signal": {
 			"type": "array",
 			"items": [
-				{"type": "array",
-				"items": [
-					{
+				{
+					"type": "array",
+					"items": [
+						{
 						"type": "string"
 						},
-					{
-						"type": "object",
-						"properties": {
-						"name": {"type": "string"},
-						"wave": {"type": "string"},
-						"data": {
-							"type": ["array", "string"],
-							"items": {"type": "string"}
-						},
-						"phases": {"type": "number"},
-						"period": {"type": "number"}
-					}, "additionalProperties": False
-				}]},
+						{
+							"type": "object",
+							"properties": {
+								"name": {"type": "string"},
+								"wave": {"type": "string"},
+								"data": {
+									"type": ["array", "string"],
+									"items": {"type": "string"}
+								},
+								"phases": {"type": "number"},
+								"period": {"type": "number"}
+							}
+						}
+					]
+				},
 				{
-						"type": "object",
-						"properties": {
+					"type": "object",
+					"properties": {
 						"name": {"type": "string"},
 						"wave": {"type": "string"},
 						"data": {
@@ -108,12 +111,11 @@ wavejson_schema = {
 						},
 						"phases": {"type": "number"},
 						"period": {"type": "number"}
-					}, "additionalProperties": False
+					}
 				}
 			]
 		}
-	},
-	"additionalProperties": False
+	}
 }
 
 # WaveDrom behaviour is surprisingly complex; this is an approximation

@@ -1,10 +1,8 @@
 {"signal": [
-  ["Binary Counter",
    ["input",
-    {"name": "clk", "wave": "P.....", "period": "2"},
+    {"name": "clk", "wave": "P.....", "period": 2},
     {"name": "reset", "wave" : "hl.........."},
     {"name": "ud", "wave": "l......h...."}],
     {},
    ["output",
-    {"name": "out", "wave": "=.=.=.=.=.=.", "data": "0000 0001 0010 0011 0010 0001"}]
-  ]]}
+    {"name": "out", "wave": "=.=.=.=.=.=.", "data": "0000 0001 0010 0011 0010 0001"}]]}

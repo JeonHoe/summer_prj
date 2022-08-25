@@ -1,9 +1,10 @@
 {"signal":[
   ["input",
-  {"name": "clk", "wave": "P...", "period": 2},
-  {"name": "a", "wave": "l...h..."},
+  {"name": "clk", "wave": "p...", "period": 2},
+  {"name": "a", "wave": "l...h...", "period": 1},
   {"name": "b", "wave": "l.h.l.h."},
-  {"name": "c", "wave": "=...=...", "data": "1011 1101"}],
+  {"name": "c", "wave": "222.....", "data": "00 01 10"}],
   {},
   ["output",
-   {"name": "out", "wave": "========", "data": "000 001 010 011 100 101 110 111"}]]}
+   {"name": "out", "wave": "222...2.", "data": "00 01 10 11"}]],
+  "config": {"hscale": 1}}

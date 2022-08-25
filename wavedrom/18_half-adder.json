@@ -1,12 +1,8 @@
 {"signal": [
-    ["half_adder",
     ["input",
      {"name" : "a", "wave" : "l...h..."},
-     {"name" : "b", "wave" : "l.h.l.h."}
-    ],
+     {"name" : "b", "wave" : "l.h.l.h."}],
      {},
     ["output",
      {"name" : "sum", "wave" : "l.h...l."},
-     {"name" : "c_out", "wave" : "l.....h."}
-    ]
-  ]]}
+     {"name" : "c_out", "wave" : "l.....h."}]]}

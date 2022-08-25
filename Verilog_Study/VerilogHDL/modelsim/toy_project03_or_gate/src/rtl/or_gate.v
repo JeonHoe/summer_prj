@@ -1,4 +1,4 @@
-module or_gate(a, b, out);
+4module or_gate(a, b, out);
 
     input a;
     input b;

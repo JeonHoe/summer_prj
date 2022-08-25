@@ -1,13 +1,9 @@
 {"signal": [
-    ["full_subtracter",
     ["input",
      {"name" : "a", "wave" : "l...h..."},
      {"name" : "b", "wave" : "l.h.l.h."},
-     {"name" : "b_out", "wave" : "lhlhlhlh"}
-    ],
+     {"name" : "b_in", "wave" : "lhlhlhlh"}],
      {},
     ["output",
      {"name" : "diff", "wave" : "lh.lhl.h"},
-     {"name" : "b_out", "wave" : "lh..l..h"}
-    ]
-  ]]}
+     {"name" : "b_out", "wave" : "lh..l..h"}]]}

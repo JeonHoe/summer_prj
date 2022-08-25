@@ -1,12 +1,10 @@
 {"signal": [
-  ["Johnson Counter",
    ["input",
-    {"name": "clk", "wave": "P........", "period": "2"},
+    {"name": "clk", "wave": "P........", "period": 2},
     {"name": "reset", "wave" : "lh................"}],
     {},
    ["output",
     {"name": "Q1", "wave": "l.h.......l......."},
     {"name": "Q2", "wave": "l...h.......l....."},
     {"name": "Q3", "wave": "l.....h.......l..."},
-    {"name": "Q4", "wave": "l.......h.......l."}]
-  ]]}
+    {"name": "Q4", "wave": "l.......h.......l."}]]}

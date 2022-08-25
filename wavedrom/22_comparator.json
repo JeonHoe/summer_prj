@@ -1,5 +1,4 @@
 {"signal": [
-  ["comparator",
    ["input",
     {"name": "a", "wave": "l...h..."},
     {"name": "b", "wave": "l.h.l.h."}],
@@ -7,5 +6,4 @@
    ["output",
     {"name": "greater", "wave": "l...h.l."},
     {"name": "equal", "wave": "h.l...h."},
-    {"name": "lesser", "wave": "l.h.l..."}]
- ]]}
+    {"name": "lesser", "wave": "l.h.l..."}]]}

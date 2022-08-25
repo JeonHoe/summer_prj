@@ -1,39 +1,12 @@
 {"signal": [
-  ["Register1",
    ["input",
-    {"name": "clk", "wave": "P......", "period": "2"},
+    {"name": "clk", "wave": "P......", "period": 2},
      {"name": "reset", "wave": "lh............"},
     {"name": "ld", "wave": "l..hl........."},
     {"name": "d_in", "wave": "=.............", "data": "0101"}
    ],
    {},
    ["output",
-    {"name": "out", "wave": "l..h..l.h.l..."}
-   ]
-],
-  {},{},
-  ["Register2",
-   ["input",
-    {"name": "clk", "wave": "P......", "period": "2"},
-    {"name": "reset", "wave": "lh............"},
-    {"name": "d_in", "wave": "l..h.l.h......", "data": "0101"}
-   ],
-   {},
-   ["output",
-    {"name": "out", "wave": "=...=.=.=.=.=.", "data": "0000 1000 0100 1010 1101 1110"}
-   ]
-  ],
- {},{},
-  ["Register3",
-   ["input",
-    {"name": "clk", "wave": "P......", "period": 2},
-    {"name": "reset", "wave": "lh............"},
-    {"name": "ld", "wave": "l..hl........."},
-    {"name": "pd_in", "wave": "=.............", "data": "0101"},
-    {"name": "d_in", "wave": "l..h.l........"}
-   ],
-   {},
-   ["output",
-    {"name": "out", "wave": "l..hl.h.l.h.l."}
-   ]
-]]}
+    {"name": "out", "wave": "l..h..l.h.l..."}]]}
+
+  

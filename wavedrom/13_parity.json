@@ -1,11 +1,10 @@
 {"signal": [
-    ["parity",
     ["input",
      {"name" : "a", "wave" : "l...h..."},
      {"name" : "b", "wave" : "l.h.l.h."},
      {"name" : "c", "wave" : "lhlhlhlh"}],
+    {},
     ["output",
      {"name" : "even", "wave" : "lh.lhl.h"},
-     {"name" : "odd", "wave" : "hl.hlh.l"}]
-    ]]}
+     {"name" : "odd", "wave" : "hl.hlh.l"}]]}
   

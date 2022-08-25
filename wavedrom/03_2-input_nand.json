@@ -1,9 +1,7 @@
 {"signal":[
- ["nand",
   ["input",
    {"name": "a", "wave": "l...h..."},
    {"name": "b", "wave": "l.h.l.h."}],
   {},
   ["output",
-   {"name": "out", "wave": "h.....l."}]
-]]}
+   {"name": "out", "wave": "h.....l."}]]}

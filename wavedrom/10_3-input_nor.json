@@ -1,10 +1,8 @@
 {"signal": [
-  ["nor",
    ["input",
     {"name": "a", "wave": "l...h..."},
     {"name": "b", "wave": "l.h.l.h."},
     {"name": "c", "wave": "lhlhlhlh"}],
     {},
    ["output",
-    {"name": "out", "wave": "hl......"}]
- ]]}
+    {"name": "out", "wave": "hl......"}]]}

@@ -1,11 +1,9 @@
 {"signal": [
-  ["T-f/f",
    ["input",
-    {"name": "clk", "wave": "P.....", "period": "2"},
+    {"name": "clk", "wave": "P.....", "period": 2},
     {"name": "reset", "wave" : "hl.........."},
-    {"name": "T", "wave": "l..h.l.h.l.."}],
+    {"name": "t", "wave": "l..h.l.h.l.."}],
     {},
    ["output",
-    {"name": "Q", "wave": "l...h...l..."},
-    {"name":"Qb", "wave": "h...l...h..."}]
-  ]]}
+    {"name": "q", "wave": "l...h...l..."},
+    {"name":"qb", "wave": "h...l...h..."}]]}

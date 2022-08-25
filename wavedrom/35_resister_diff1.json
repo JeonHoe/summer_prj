@@ -1,0 +1,9 @@
+{"siganl":[
+  ["input",
+   {"name": "clk", "wave": "P......", "period": 2},
+   {"name": "reset", "wave": "lh............"},
+   {"name": "d_in", "wave": "l..h.l.h......", "data": "0101"}
+  ],
+  {},
+  ["output",
+   {"name": "out", "wave": "=...=.=.=.=.=.", "data": "0000 1000 0100 1010 1101 1110"}]]}

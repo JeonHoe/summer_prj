@@ -1,26 +1,10 @@
-module equal(e, a, b);
+module comparater(e, g, l, a, b);
     
     input a, b;
-    output e;
+    output e, g, l;
 
     assign e =!((!a && b) || (a && !b));
-
-endmodule
-
-module greater(g, a, b);
-
-    input a, b;
-    output g;
-
     assign g = a && !b;
-
-endmodule
-
-module less(l, a, b);
-
-    input a, b;
-    output l;
-
     assign l = !a && b;
 
 endmodule

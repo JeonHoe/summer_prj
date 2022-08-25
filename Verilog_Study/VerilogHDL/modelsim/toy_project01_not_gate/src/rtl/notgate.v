@@ -1,6 +1,6 @@
 module not_gate(a, out);
 
-    input a;
+    input in;
     output out;
 
     assign out = ~a;

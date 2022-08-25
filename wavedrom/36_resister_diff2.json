@@ -1,0 +1,10 @@
+{"signal":[
+  ["input",
+    {"name": "clk", "wave": "P......", "period": 2},
+    {"name": "reset", "wave": "lh............"},
+    {"name": "ld", "wave": "l..hl........."},
+    {"name": "pd_in", "wave": "=.............", "data": "0101"},
+    {"name": "d_in", "wave": "l..h.l........"}],
+  {},
+  ["output",
+    {"name": "out", "wave": "l..hl.h.l.h.l."}]]}

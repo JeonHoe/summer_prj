@@ -1,14 +1,10 @@
 {"signal": [
-    ["full_adder",
     ["input",
      {"name" : "a", "wave" : "l...h..."},
      {"name" : "b", "wave" : "l.h.l.h."},
-     {"name" : "c_in", "wave" : "lhlhlhlh"}
-    ],
+     {"name" : "c_in", "wave" : "lhlhlhlh"}],
      {},
     ["output",
      {"name" : "sum", "wave" : "lh.lhl.h"},
-     {"name" : "c_out", "wave" : "l..hlh.."}
-    ]
-  ]]}
+     {"name" : "c_out", "wave" : "l..hlh.."}]]}
   
