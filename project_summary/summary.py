@@ -1,4 +1,6 @@
 import argparse
+from os import times
+from textwrap import indent
 import jsonschema
 import json5
 
@@ -76,7 +78,7 @@ def module_instance(module_data):
 			name = str.replace("\n", "")
 			name = name.split("(")
 			module = name[0].split(" ")
-			module = module[1].replace(m_name, "tb")
+			module = module[1].replace(m_name, "test_unit")
 			name = module + "(" + name[1]
 
 			instance_string = instance_string + name
@@ -109,7 +111,7 @@ def make_initial(src):
 		delay = 5 * prd
 		re_str += tab + "always #" + str(delay) + " clk = ~clk;\n"
 
-	if d == None:
+	elif d == None:
 		for cmd in w:
 			if cmd in "0lL":
 				re_str += (tab + tab) + "#" + str(delay) + " " + n + "= 1'b0;\n"
@@ -123,6 +125,7 @@ def make_initial(src):
 			if cmd == ".": delay = delay + 10 * prd
 			
 		re_str += tab + "end\n"
+		
 	else:
 		if type(d) == str:
 			d = d.split(" ")
@@ -157,17 +160,17 @@ def make_initial_vecter(reg):
 	return res
 
 def make_tb(timescale, start, ponts, instance, initial_vecter, end):
-	print(timescale)
-	print(start)
+	res = ""
+	res += timescale + "\n" 
+	res += start + "\n"
 	for str in ponts:
-		if "\n" in str:
-			str = str.replace("\n", "")
-		print(str)
-	print("")
-	print(instance + "\n")
+		res += str
+	res += "\n"
+	res += instance + "\n\n"
 	for inits in initial_vecter:
-		print(inits)
-	print(end)
+		res += inits + "\n"
+	res += end
+	return res
 
 def sig_info(dict1):	
 	list_in = []
@@ -204,6 +207,7 @@ ponts = None
 instance = None
 initial_vecter = []
 end = "endmodule"
+tb = None
 
 """src_t = "test.v"
 txt = call_module(src_t)
@@ -218,21 +222,48 @@ make_tb(timescale, start, ponts, instance, initial_vecter, end)"""
 
 
 if __name__ == "__main__":
-	parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter)
+	parser = argparse.ArgumentParser(description="Testbench creation process", formatter_class=argparse.RawDescriptionHelpFormatter)
 	parser.epilog = __doc__
 	parser.add_argument("vmd", help="Verilog module source file")
 	parser.add_argument("src", help="waveJSON source file")
-	parser.add_argument("-gtb", "--testbench", action="store_true", 
+	parser.add_argument("-gtb", "--testbench", action="store_true",
 		help="generate testbench of src")
+	parser.add_argument("-r", "--read", choices=["vmd", "src"], help="read select file")
+	parser.add_argument("-s", "--save", type=str, help="save testbench")
 	args = parser.parse_args()
 
 	if args.testbench:
 		txt = call_module(args.vmd)
 		dict1 = call_json(args.src)
+		
 		reg = sig_info(dict1)
-
 		initial_vecter = make_initial_vecter(reg)
 		instance = module_instance(txt)
 		ponts = get_io(txt)
-		make_tb(timescale, start, ponts, instance, initial_vecter, end)
+		tb = make_tb(timescale, start, ponts, instance, initial_vecter, end)
+		print(tb)
+
+	if args.read != None:
+		txt = call_module(args.vmd)
+		dict1 = call_json(args.src)
+		if args.read == "vmd":
+			for str in txt:
+				print(str)
+		if args.read == "src":
+			str = json5.dumps(dict1, indent=3)
+			print(str)
+
+	if args.save != None:
+		txt = call_module(args.vmd)
+		dict1 = call_json(args.src)
+		
+		reg = sig_info(dict1)
+		initial_vecter = make_initial_vecter(reg)
+		instance = module_instance(txt)
+		ponts = get_io(txt)
+		tb = make_tb(timescale, start, ponts, instance, initial_vecter, end)
+
+		str = args.save
+		with open(str, "w") as fp:
+			fp.writelines(tb)
 
